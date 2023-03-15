@@ -1,0 +1,20 @@
+.header{
+    width: 700px;
+    height: 100px;
+    background-color: #e2e2e2;
+    border-radius: 20px;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: anim 1s forwards;
+}   
+@keyframes anim {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
